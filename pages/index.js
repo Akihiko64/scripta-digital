@@ -1,12 +1,8 @@
-import Link from 'next/link';
-
 function Home(){
     return (
         <div>
             <h1>Home - Scripta Digital</h1>
-            <Link href="/sobre">
-                <a>Acessar página sobre</a>
-            </Link>
+            <span>A solução para seu negócio digital</span>
         </div>
     )
 }
