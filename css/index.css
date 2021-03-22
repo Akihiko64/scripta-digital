@@ -20,13 +20,10 @@
 .wrapContent{
     display: flex;
     flex-direction: column;
-
+    box-sizing: border-box;
     background: #fff;
-    
-    width: 100vw;
     height: 100vh;
 
-    overflow: auto;
 }
 
 .container{

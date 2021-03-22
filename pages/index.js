@@ -8,6 +8,7 @@ import Menu from '../components/Menu';
 function Home(){
     return (
         <div className={style.wrapContent} >
+            
             <Head>
                 <title>Home - Scripta Digital</title>
             </Head>
@@ -78,7 +79,8 @@ function Home(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>     
+            
 
         </div>
     )

@@ -1,12 +1,27 @@
 .wrapContent{
-    /* position: fixed; */
-    min-height: 50px;
+    /* size -> positions -> effects -> colors */
     width: 100%;
-    display: flex;
-    align-items: center;
-    background: #322477;
+    min-height: 8vh;
     padding: 1em;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: fixed;
+    box-sizing: border-box;
     z-index: 2;
+
+    transition: all .2s ease-in;
+    
+    background: #32247700;
+    
+}
+
+.scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #322477;
 }
 
 .wrapContent .siteLogo{
