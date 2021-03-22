@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React, { Fragment } from "react";
 import style from '../css/index.css';
 import Head from 'next/head';
+import Menu from '../components/Menu';
 
 
 function Home(){
@@ -10,6 +11,7 @@ function Home(){
             <Head>
                 <title>Home - Scripta Digital</title>
             </Head>
+            <Menu />
             <div className={style.section1WrapContainer}>
                 <div className={style.container}>
                     <div className={style.titleContent}>

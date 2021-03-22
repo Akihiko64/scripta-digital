@@ -1,16 +1,36 @@
-.content{
-    background: white;
+.wrapContent{
+    /* position: fixed; */
+    min-height: 50px;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-
-    width: 100%;
-    height: 250px;
+    background: #322477;
+    padding: 1em;
+    z-index: 2;
 }
 
-.content a{
-    cursor: pointer;
+.wrapContent .siteLogo{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+}
+
+.siteLogo img{
+    width: 170px;
+}
+
+.wrapContent .navContent{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.navContent a{
+    padding-right: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    
     text-decoration: none;
-    color: red;
-    font-size: 30px;
+    
 }

@@ -104,10 +104,11 @@
 
 .container .ilustrationContainer{
     width: 50%;
-   
+
 }
 
 .ilustrationContainer img{
+    width: 50em;
     animation: float 5s ease-in-out infinite;
 }
 
